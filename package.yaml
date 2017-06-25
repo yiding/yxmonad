@@ -1,0 +1,23 @@
+name: yxmonad
+version: 0.0.0
+dependencies:
+  - base < 5
+  - protolude
+
+executables:
+  yxmonad: 
+    main: Main.hs
+    source-dirs: main
+    dependencies:
+      - xmonad
+      - xmonad-contrib
+      - network
+      - containers
+  
+  yxmonad-dgramread:
+    main: Main.hs
+    source-dirs: dgramread-main
+    dependencies:
+      - directory
+      - network
+      - optparse-applicative
