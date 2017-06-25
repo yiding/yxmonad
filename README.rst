@@ -1,0 +1,1 @@
+This repository contains my xmonad configuration and associated utilities.
