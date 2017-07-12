@@ -44,6 +44,8 @@ main = do
           , ((modMask, xK_l), focusGroupDown)
           , ((modMask, xK_k), focusUp)
           , ((modMask, xK_j), focusDown)
+          , ((modMask, xK_u), zoomGroupOut)
+          , ((modMask, xK_i), zoomGroupIn)
           , ((modMask .|. shiftMask, xK_k), swapUp)
           , ((modMask .|. shiftMask, xK_j), swapDown)
           , ((modMask .|. shiftMask, xK_h), moveToGroupUp False)
